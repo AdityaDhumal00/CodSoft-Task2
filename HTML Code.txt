@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page with Columns</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><b>My Landing Page!</b></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <a href="#" class="btn">Register</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h3>Enjoy with us!</h3>
+            <h2>Explore the World</h2>
+            <p>Hotels and Designations for you!</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>Feature 1</h3>
+                    <p>Explore's you the best Hotels!</p>
+                </div>
+                <div class="column">
+                    <h3>Feature 2</h3>
+                    <p>Explore's you the best Designations!</p>
+                </div>
+                <div class="column">
+                    <h3>Feature 3</h3>
+                    <p>24*7 Free Service and many more!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="row">
+                <div class="column">
+                    <blockquote>
+                        <p>"Great service! Highly recommend."</p>
+                        <footer>Aditya Dhumal</footer>
+                    </blockquote>
+                </div>
+                <div class="column">
+                    <blockquote>
+                        <p>"Excellent quality and fast delivery."</p>
+                        <footer>Aditya Dhumal</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    <section><p>&copy; 2024 My Landing Page. All rights reserved.</p></section>
+           
+        
+    </footer>
+
+</body>
+</html>
